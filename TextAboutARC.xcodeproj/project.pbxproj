@@ -542,7 +542,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 智远 杨 (69J3W65FJ5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 智远 杨 (69J3W65FJ5)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -590,7 +591,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: 智远 杨 (69J3W65FJ5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 智远 杨 (69J3W65FJ5)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -615,6 +617,7 @@
 			baseConfigurationReference = 50F5A29475E0E57FA25CCA2E /* Pods-TextAboutARC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 智远 杨 (69J3W65FJ5)";
 				DEVELOPMENT_TEAM = 93564DU7QT;
 				INFOPLIST_FILE = TextAboutARC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -709,6 +712,7 @@
 				EB7FCC641EF759C50096EA63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB7FCC651EF759C50096EA63 /* Build configuration list for PBXNativeTarget "TextAboutARCTests" */ = {
 			isa = XCConfigurationList;
@@ -717,6 +721,7 @@
 				EB7FCC671EF759C50096EA63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB7FCC681EF759C50096EA63 /* Build configuration list for PBXNativeTarget "TextAboutARCUITests" */ = {
 			isa = XCConfigurationList;
@@ -725,6 +730,7 @@
 				EB7FCC6A1EF759C50096EA63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

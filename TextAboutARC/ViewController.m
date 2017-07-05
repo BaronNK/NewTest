@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import <Foundation/Foundation.h>
+
 
 @interface ViewController ()
+
+@property (nonatomic , weak) id obj;
 
 @end
 
@@ -16,6 +20,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+  
+    
+   
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -257,7 +257,7 @@
 					EB7FCC341EF759C50096EA63 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 93564DU7QT;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					EB7FCC4D1EF759C50096EA63 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -542,8 +542,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: 智远 杨 (69J3W65FJ5)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 智远 杨 (69J3W65FJ5)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ChinaNews.com";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ChinaNews.com";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -591,8 +591,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: 智远 杨 (69J3W65FJ5)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 智远 杨 (69J3W65FJ5)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ChinaNews.com";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ChinaNews.com";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -617,12 +617,14 @@
 			baseConfigurationReference = 50F5A29475E0E57FA25CCA2E /* Pods-TextAboutARC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: 智远 杨 (69J3W65FJ5)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ChinaNews.com";
 				DEVELOPMENT_TEAM = 93564DU7QT;
 				INFOPLIST_FILE = TextAboutARC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cns.EditingSystemDemo.TextAboutARC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cns.EditingSystemDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a96c4442-2990-4a9a-ba83-80013d5d87c6";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: com.cns.EditingSystemDemo";
 			};
 			name = Debug;
 		};
@@ -631,11 +633,14 @@
 			baseConfigurationReference = FD23130EF39E471C813DFAB5 /* Pods-TextAboutARC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ChinaNews.com";
 				DEVELOPMENT_TEAM = 93564DU7QT;
 				INFOPLIST_FILE = TextAboutARC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cns.EditingSystemDemo.TextAboutARC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cns.EditingSystemDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a96c4442-2990-4a9a-ba83-80013d5d87c6";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: com.cns.EditingSystemDemo";
 			};
 			name = Release;
 		};

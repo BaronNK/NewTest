@@ -4,17 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-TextAboutARC.xcscheme_^#shared#^_</key>
+		<key>Pods-TextAboutARC.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<true/>
 		</dict>
-		<key>Pods-TextAboutARCTests.xcscheme_^#shared#^_</key>
+		<key>Pods-TextAboutARCTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<true/>
 		</dict>
-		<key>Pods-TextAboutARCUITests.xcscheme_^#shared#^_</key>
+		<key>Pods-TextAboutARCUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<true/>
